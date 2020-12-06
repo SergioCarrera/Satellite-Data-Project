@@ -1,0 +1,40 @@
+(I used with Windows 10)
+I included "wxinst21102-beta.exe", simply run through the installation steps this 
+file will launch to install WXtoImg. Once installed, launch "xwxtoimg.exe". I followed
+the instructions at https://noaa-apt.mbernardi.com.ar/guide.html to get the program
+to show maps from wav files. I will copy and paste the instructions I followed below: 
+
+Decoding WAV on WXtoImg
+If you want to decode your WAV file on WXtoIMG:
+
+Resample the recording to 11025Hz, you can use noaa-apt for that.
+
+Enable Expert mode, on Options > GUI Options.
+
+Restart WXtoIMG.
+
+File > Load audio file.
+
+Select Satellite > NOAA.
+
+Select Options > Disable map overlay because it could be wrong if you have a wrong timestamp on your file.
+
+File > Decode.
+
+If you want map overlay:
+
+The modification timestamp of the new file should be the moment of the end of the pass. If you resampled the file using noaa-apt it should be OK, otherwise change it if necessary using the noaa-apt GUI or using your terminal.
+
+Uncheck Options > Disable map overlay.
+
+Set Options > Ground Station Location.
+
+Use Enhacements > Normal or any enhacement different than Pristine (because it means no enhacements).
+
+Optional:
+
+Options > Resync.
+
+Options > Disable PLL.
+
+Options > Illumination Compensation.

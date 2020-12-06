@@ -1,0 +1,10 @@
+(I used with Windows 10)
+Run "gpredict.exe" in "gpredict-win32-2.3.37" folder, this should should get it to
+launch. Upon launching, make sure to go to Edit -> Preferences and change the location 
+to desired location, mine was Lincoln, Ne. I'm not sure if it does anything but I 
+make sure to do Edit -> Update TLE Data From Network. In the dropdown menu in the 
+upper right side of the program, click on Configure and make sure satellites NOAA 15, 
+NOAA 18, and NOAA 19 are the selected satellites. Also in the drop down menu, make 
+sure Time Controller settings are set to real time. When a satellite range reaches
+your location, it's a good time to record using the flow graph. I believe these are
+all the changes I had to make upon downloading and first using the program.
